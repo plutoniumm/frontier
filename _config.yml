@@ -2,8 +2,8 @@
 name: "Frontier"
 title: "Frontier"
 description: "A Nukes blog on the bleeding edge of the web for a safer and more informed user"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'logo.png'
+favicon: 'favicon.png'
 baseurl: 
 google_analytics: 'UA-46278016-1'
 # mailchimp-list: ''
