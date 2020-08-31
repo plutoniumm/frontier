@@ -1,4 +1,4 @@
-# Frontier - Nuclear Technologies (Nukes)
+# Frontier - Nukes Foundation
 
 ### Contribute
 

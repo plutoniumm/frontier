@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Ultimate Privacy Guide: Intro"
-author: sal
+title:  "Ultimate Privacy Guide: Normal"
+author: plutonium
 categories: [ Privacy, Security ]
-image: assets/images/12.jpg
-featured: true
-hidden: true
+image: assets/images/posts/aug2020/upr0.jpg
 ---
 
 

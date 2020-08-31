@@ -12,19 +12,17 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
+  plutonium:
     name: Manav Seksaria
-    display_name: Plutonium
-    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    display_name: Manav Seksaria
     email: wowthemesnet@gmail.com
     # web: https://www.wowthemes.net
     # twitter: https://twitter.com/wowthemesnet
-    description: "Author of Frontier, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Creator at Nukes Foundation. Creator of Chernobyl and Frontier."
   john:
     name: John
     display_name: John    
     avatar: 'assets/images/avatar.png'
-    # gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
     # web: https://www.wowthemes.net
     # twitter: https://twitter.com/wowthemesnet
@@ -67,4 +65,4 @@ kramdown:
 
 lazyimages: "enabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, Helptext.txt]
