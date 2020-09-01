@@ -25,11 +25,6 @@
                         <div class="card-body">
                             <h2 class="card-title">
                                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                                {% if post.rating %}
-                                <div class="mb-2 mt-2 font-weight-normal">
-                                    {% include star_rating_postbox.html %}
-                                </div>
-                                {% endif %}
                             </h2>
 
                             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
@@ -56,8 +51,8 @@
                                 <span class="post-read-more">
                                     <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="Read Story">
                                         <svg class="svgIcon-use" id="i-external" xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 32 32" width="25" height="25" fill="none" stroke="black"
-                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                            viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="black"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
                                             <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
                                         </svg>
                                     </a>

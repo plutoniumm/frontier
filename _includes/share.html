@@ -4,23 +4,22 @@
     </p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank"
-                href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet"
+                onclick="window.open(this.href + '?text={{ page.title }}&url={{ page.url | absolute_url }}', 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}"
-                onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://facebook.com/sharer.php"
+                onclick="window.open(this.href + '?u={{ page.url | absolute_url }}', 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}"
-                onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" href="https://www.linkedin.com/"
+                onclick="window.open(this.href + 'shareArticle?mini=true&url={{ page.url | absolute_url }}', 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
