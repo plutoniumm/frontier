@@ -3,7 +3,7 @@ layout: post
 title:  "Ultimate Privacy Guide: Snowden"
 author: plutonium
 categories: [ Privacy, Security ]
-image: assets/images/posts/aug2020/upr0.jpg
+image: assets/images/posts/2020sept/upr4.png
 ---
 
 

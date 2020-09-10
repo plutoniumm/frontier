@@ -5,7 +5,7 @@ description: "A Nukes blog on the bleeding edge of the web for a safer and more 
 logo: 'logo.png'
 favicon: 'favicon.png'
 baseurl: 
-google_analytics: 'UA-46278016-1'
+google_analytics: 'UA-177072544-1'
 # mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
