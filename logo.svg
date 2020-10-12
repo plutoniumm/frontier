@@ -1,4 +1,1 @@
-<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="400" height="150" fill="black"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="80" font-family="Arial Black">front;er</text>    
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150"><rect width="400" height="150" x="0" y="0" fill="#000"/><text x="50%" y="50%" fill="#fff" dominant-baseline="middle" font-family="Arial Black" font-size="80" text-anchor="middle">front;er</text></svg>
