@@ -1,5 +1,11 @@
 # Frontier - Nukes Foundation
 
+gem install bundler
+
+bundle install
+
+bundle exec jekyll serve --watch
+
 ### Contribute
 
 1. [Fork the repo].
@@ -8,3 +14,4 @@
 4. Make necessary changes, commit, push and open a pull request on GitHub.
 
 Thank you!
+

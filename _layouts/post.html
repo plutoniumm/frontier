@@ -6,6 +6,42 @@ post_class: post-template
 
 <!-- Begin Article
 ================================================== -->
+
+<style>
+    progress {
+        width: 100vw;
+        position: fixed;
+        height: 10px;
+        appearance: none;
+        top: 0;
+        background-color: transparent;
+        border: 0;
+        left: 0;
+        color: #3cb371;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: transparent;
+    }
+
+    progress::-webkit-progress-value,
+    progress::-moz-progress-bar {
+        background-color: #3cb371;
+    }
+</style>
+
+<script>
+    document.addEventListener( 'DOMContentLoaded', () => {
+        const winHeight = window.innerHeight, docHeight = document.body.scrollHeight, prog = document.getElementById( 'reading' );
+        prog.setAttribute( 'max', docHeight - winHeight );
+        window.addEventListener( 'scroll', ( e ) => {
+            prog.setAttribute( 'value', window.pageYOffset )
+        } );
+    }, false );
+</script>
+
+<progress id="reading" value="0"></progress>
+
 <div class="container">
     <div class="row">
 
@@ -16,7 +52,6 @@ post_class: post-template
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
-
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
@@ -56,16 +91,10 @@ post_class: post-template
             <!-- Post Featured Image -->
             {% if page.image %}
 
-            {% if site.lazyimages == "enabled" %}
             <img class="featured-image img-fluid lazyimg"
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
                 data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
                 alt="{{ page.title }}">
-            {% else %}
-            <img class="featured-image img-fluid"
-                src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
-                alt="{{ page.title }}">
-            {% endif %}
 
             {% endif %}
             <!-- End Featured Image -->

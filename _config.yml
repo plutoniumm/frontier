@@ -1,12 +1,11 @@
 # Site
 name: "Frontier"
 title: "Frontier"
-description: "A Nukes blog on the bleeding edge of the web for a safer and more informed user"
+description: "A blog on the bleeding edge of the web for a safer and more informed user"
 logo: 'logo.png'
 favicon: 'favicon.png'
 baseurl: 
 google_analytics: 'UA-177072544-1'
-# mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
@@ -58,11 +57,9 @@ kramdown:
     block:
       line_numbers: true
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-# adsense: "disabled"
+
+# adsense: "enabled"
 # adsense-data-ad-client: "ca-pub-3412143450191416"
 # adsense-data-ad-slot: "1363087678"
-
-lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, Helptext.txt]
